@@ -1,0 +1,123 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins', sans-serif;
+  border-left: 1px solid #F0F0F0;
+  border-right: 1px solid #F0F0F0;
+  max-width: 500px;
+  min-width: 500px;
+  box-sizing: border-box;
+  padding: 20px;
+  max-height: 185px;
+  align-content: stretch;
+  background: #fff;
+}
+
+.card-left-section {
+  width: 150px;
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card-left-section__image {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-right-section {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card-right-section__distance {
+  align-self: flex-end;
+}
+
+.distance {
+  display: flex;
+}
+
+.distance__icon {
+  width: 16px;
+  height: 16px;
+}
+
+.distance__miles {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 18px;
+  padding-left: 3px;
+}
+
+.card-right-section__name {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+.card-right-section__city {
+  font-size: 12px;
+  font-weight: 500;
+  color: #aeaeae;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.card-right-section__rating {
+  padding: 5px 0;
+}
+
+.rating__number {
+  font-weight: 700;
+  font-size: 15px;
+  color: #FF9234;
+  padding-left: 10px;
+}
+
+.working-till {
+  display: flex;
+  font-size: 11px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.working-till__hours {
+  color: #15A20C;
+  padding-left: 5px;
+  font-weight: 700;
+}
+
+.working-till__icon {
+  width: 15px;
+  height: 15px;
+}
+
+.working-till__placeholder {
+  padding-left: 10px;
+}
+
+.card-street {
+  display: flex;
+  align-items: center;
+}
+
+.card-street__text {
+  font-size: 11px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.card-street__icon {
+  width: 15px;
+  height: 15px;
+}
