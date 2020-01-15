@@ -5,4 +5,6 @@ JSON.
 The list should be in the order from top->down based on the lowest
 distance value. 
 
+Feel free to use any library, or tool you need.
+
 Create a fork of this repository to develop on, and open a pull request when you are finished.
