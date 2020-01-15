@@ -1,0 +1,16 @@
+.home-screen {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.clinics-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1020px;
+}
+
+.clinics-list__card-wrapper {
+  padding: 10px 0;
+}
